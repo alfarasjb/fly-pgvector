@@ -43,3 +43,4 @@ To make your database accessible from external tools like Postico, you need to g
 
 
 This setup allows you to securely connect to your database from your preferred tool without needing to modify additional configuration files or deploy changes.
+
