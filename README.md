@@ -45,3 +45,7 @@ To make your database accessible from external tools like Postico, you need to g
 This setup allows you to securely connect to your database from your preferred tool without needing to modify additional configuration files or deploy changes.
 [fly.toml](fly.toml)
 
+### Other Important Commands
+1. Updating CPU Memory - `fly machine update <machine_id> --vm-memory <memory_size> --app <app_name>` 
+2. Updating Volume Memory - `fly volumes extend <volume_id> -s <new_size_in_gb>` 
+3. 
